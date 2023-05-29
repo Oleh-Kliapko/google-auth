@@ -8,7 +8,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<RegistrationForm />} />
-      <Route path="/auth/google/callback" element={<RedirectPage />} />
+      <Route path="/api/users/google/callback" element={<RedirectPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

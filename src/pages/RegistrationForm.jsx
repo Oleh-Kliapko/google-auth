@@ -4,7 +4,7 @@ import { ReactComponent as Google } from "../google.svg";
 const RegistrationForm = () => {
   const handleRegistration = () => {
     // Redirect the user to the Google authentication page
-    window.location.href = `https://google-auth-bvk5.onrender.com`;
+    window.location.href = `http://localhost:5000/api/users/google`;
   };
 
   return (
